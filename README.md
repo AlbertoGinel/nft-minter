@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+I have achieved the goal I set for myself, which is to mint tokens and see them generated in a list. The most challenging part for me was truly understanding what web3 is and programming for it. My mistake was diving into programming without a clear idea of what I wanted to achieve. I should have researched from the beginning instead of jumping into coding.
+
+![app]('./public/readmeImages/token.png')
+
+I highly recommend the video that I should have watched from the start. It's from my favorite developer YouTuber, and he explains web3 very well.
+
+https://www.youtube.com/watch?v=wHTcrmhskto&feature=youtu.be
+
+I created a simple contract using Remix (contracts/contract.sol). Then, in Next.js, with the help of two hooks, useWeb3Provider and useMintNFT, I am able to mint new tokens with names and display them on the screen.
+
+It has been a good challenge, and I've had the opportunity to learn technologies that were unfamiliar to me. Now, I am eager to create an app that displays images on IPFS.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
